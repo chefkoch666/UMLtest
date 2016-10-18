@@ -7,25 +7,29 @@
     <importedPackage xmi:type="uml:Profile" href="pathmap://PapyrusJava_PROFILES/PapyrusJava.profile.uml#_j9REUByGEduN1bTiWJ0lyw"/>
   </packageImport>
   <packagedElement xmi:type="uml:Class" xmi:id="_FuZxcJL2EeaDiOiNjjEQiw" name="Person" isAbstract="true">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_p1_DoJL2EeaDiOiNjjEQiw" name="name" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OkTlsJL3EeaDiOiNjjEQiw" name="mitgliedid" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_-M4EQJL2EeaDiOiNjjEQiw" name="adressid" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_JWcZsJL3EeaDiOiNjjEQiw" name="alter" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_p1_DoJL2EeaDiOiNjjEQiw" name="name" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_OkTlsJL3EeaDiOiNjjEQiw" name="mitgliedid" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_vNlmoJUIEeaim4ObCAxRqQ" name="geschlecht" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_WaoBsJL3EeaDiOiNjjEQiw" name="geburtstag" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_LL_joJOHEeanqMadOr9z4g" name="mail" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PRKpQJOHEeanqMadOr9z4g"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PRO6sJOHEeanqMadOr9z4g" value="1"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_JWcZsJL3EeaDiOiNjjEQiw" name="alter" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wd9boJUDEeaOYpdOhhadXA" name="eintrittDatum" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2uKOYJUDEeaOYpdOhhadXA" name="austrittDatum" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_14J_kJL3EeaDiOiNjjEQiw" name="getName">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_SQ9oMJL4EeaDiOiNjjEQiw" direction="return">
@@ -65,26 +69,40 @@
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_q5_roJN1EeanqMadOr9z4g" name="Adressen">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_ySwicJT1EeaOYpdOhhadXA" name="adressid">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ySwicJT1EeaOYpdOhhadXA" name="adressid" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_0_FFQJN1EeanqMadOr9z4g" name="strasse">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_0_FFQJN1EeanqMadOr9z4g" name="strasse" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_7aMukJN1EeanqMadOr9z4g" name="hausnr">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7aMukJN1EeanqMadOr9z4g" name="hausnr" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_7aMukZN1EeanqMadOr9z4g"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_FMPQYJN2EeanqMadOr9z4g" name="plz">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_FMPQYJN2EeanqMadOr9z4g" name="plz" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
       <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_FMPQYZN2EeanqMadOr9z4g"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_KIYaQJN2EeanqMadOr9z4g" name="ort">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_KIYaQJN2EeanqMadOr9z4g" name="ort" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_184DwJT1EeaOYpdOhhadXA" name="person" type="_FuZxcJL2EeaDiOiNjjEQiw" association="_18ykMJT1EeaOYpdOhhadXA">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_184DwJT1EeaOYpdOhhadXA" name="person" visibility="private" type="_FuZxcJL2EeaDiOiNjjEQiw" association="_18ykMJT1EeaOYpdOhhadXA">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7BWDMJT1EeaOYpdOhhadXA" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7BXRUJT1EeaOYpdOhhadXA" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_anKugJUDEeaOYpdOhhadXA" name="telefonnummer" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_LL_joJOHEeanqMadOr9z4g" name="mail" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PRKpQJOHEeanqMadOr9z4g"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PRO6sJOHEeanqMadOr9z4g" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_inIccJUIEeaim4ObCAxRqQ" name="anrede" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_l4dDQJUIEeaim4ObCAxRqQ" name="titel" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_aBIFsJOkEeaBP66b-u792A" name="Verein">
@@ -103,10 +121,12 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_7zLTUJT2EeaOYpdOhhadXA" name="Sportadresse">
     <generalization xmi:type="uml:Generalization" xmi:id="_E9Wj4JT3EeaOYpdOhhadXA" general="_q5_roJN1EeanqMadOr9z4g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_A9CwIJT3EeaOYpdOhhadXA" name="halleplatzname">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_A9CwIJT3EeaOYpdOhhadXA" name="halleplatzname" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_lkjekJUCEeaOYpdOhhadXA" name="Konten"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_2NiwcJUKEeaim4ObCAxRqQ" name="besteht  aus" client="_aBIFsJOkEeaBP66b-u792A" supplier="_FuZxcJL2EeaDiOiNjjEQiw"/>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Dz07IJL2EeaDiOiNjjEQiw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Dz2wUJL2EeaDiOiNjjEQiw" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/PapyrusJava/1#/"/>
