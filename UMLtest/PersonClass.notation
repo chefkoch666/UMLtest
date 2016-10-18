@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_PdIJkI8REea5AcfDcwgs8g" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_RJ8QsI8REea5AcfDcwgs8g" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_RKJsEI8REea5AcfDcwgs8g" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_RKJsEY8REea5AcfDcwgs8g" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RKJsEo8REea5AcfDcwgs8g" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_RKNWcI8REea5AcfDcwgs8g" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_5fvBAI8XEeaV_ttUWdri6Q" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="PersonClass.uml#_5fmeII8XEeaV_ttUWdri6Q"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5fvBAY8XEeaV_ttUWdri6Q"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_RKN9gI8REea5AcfDcwgs8g"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_RKN9gY8REea5AcfDcwgs8g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_RKN9go8REea5AcfDcwgs8g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RKN9g48REea5AcfDcwgs8g"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_RKN9hI8REea5AcfDcwgs8g" type="Class_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_RKN9hY8REea5AcfDcwgs8g"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_RKN9ho8REea5AcfDcwgs8g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_RKN9h48REea5AcfDcwgs8g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RKN9iI8REea5AcfDcwgs8g"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_RKN9iY8REea5AcfDcwgs8g" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_RKN9io8REea5AcfDcwgs8g"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_RKN9i48REea5AcfDcwgs8g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_RKN9jI8REea5AcfDcwgs8g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RKN9jY8REea5AcfDcwgs8g"/>
+    </children>
+    <element xmi:type="uml:Class" href="PersonClass.uml#_RJuOQI8REea5AcfDcwgs8g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RJ8QsY8REea5AcfDcwgs8g" x="162" y="67" height="182"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_PdIJkY8REea5AcfDcwgs8g" name="diagram_compatibility_version" stringValue="1.2.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_PdIJko8REea5AcfDcwgs8g"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_PdIJk48REea5AcfDcwgs8g">
+    <owner xmi:type="uml:Model" href="PersonClass.uml#_PatHsI8REea5AcfDcwgs8g"/>
+  </styles>
+  <element xmi:type="uml:Model" href="PersonClass.uml#_PatHsI8REea5AcfDcwgs8g"/>
+</notation:Diagram>
